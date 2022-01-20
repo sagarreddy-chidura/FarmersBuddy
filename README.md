@@ -8,7 +8,7 @@ This is a java web based project. (In Git hub you can see the static functionali
 - Through user login, if he/she is not registered user then he/she should register then login then he/she can send any queries he/she having, like...pesticides for different crops   in different times, fertilizers....etc.
 - Through Admin login the scientist will see the queries and answer those queries and give suggestions.
 - Through this site any one can know about fariming who want to learn farming and can know about the high yeild crops.
-- I also included About Us section. If anyone wants to know or contribute to this project or give any suggestions can find the details there.
+- I also included Contact Us section. If anyone wants to know or contribute to this project or give any suggestions can find the details there.
 
 **Technologies used**
 - The technologies I used in this project are Html,CSS,Javascript,Java,JDBC and JSP.
