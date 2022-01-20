@@ -1,5 +1,5 @@
 # FarmersBuddy
-This is a java web based project.
+This is a java web based project. (In Git hub you can see the static functionality of my website.)
 
 **About the project:**
 - This project is about Farming and to help the farmers with their queries. If my project is handled by the agricultural scientist then he/she will answer all the queries of the     farmers.
