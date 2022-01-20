@@ -42,7 +42,7 @@
         </ul>
     </div>
     <div class="q">
-        <h2 class="">User Login</h2><br>
+        <h2 class="s">User Login</h2><br>
     
         <form action="Useract.jsp" method="post">
         <span class="d"> User Name  : </span> &ensp;&nbsp;&ensp;<input class="i" type="text" name="username" required="" placeholder="Enter your email" size="30" maxlength="30"> <br><br>
