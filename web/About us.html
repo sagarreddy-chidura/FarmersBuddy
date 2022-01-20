@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmers Buddy</title>
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+    <Div class="m">
+        <h1 >
+           <a href="index.html" class="c"> Farmers Buddy </a>
+        </h1>
+    </Div>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="index.html"> Home </a> 
+            </li>
+            <li>
+                <a href="admin login.jsp"> Admin </a> 
+            </li>
+            <li>
+                <a href="UserLogin.jsp"> User </a> 
+            </li>
+            <li>
+                <a href="About us.html"> About Us </a> 
+            </li>
+
+        </ul>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/scientist2.jpg" style="width:100%; height: 300px;">
+          <div class="text"> </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/scientist.jpg" style="width:100%; height: 300px;">
+          <div class="text">Scientist</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/scientist3.jpg" style="width:100%; height: 300px;">
+          <div class="text"></div>
+        </div>
+        
+    </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+            
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+        
+        </script>
+        <div>
+            <center> <h2>
+                    Agriculture Scientist 
+                </h2> </center>
+            
+                <p>
+                Agricultural Scientist is the one who is a specialist in analyzing farming methods and food production methods to enhance safety and crop yield. Through research, an agricultural scientist works on new and innovative ways to increase the quality of food grown and supplied. In complete coordination with the scientific community and policy-makers, an agricultural scientist reaches to the solution.
+            </p> 
+           <b> Note: </b> Here our main goal is to provide effective solutions to the Farmer's queries. <br> <br> <br>
+            &ensp;&ensp; &ensp;   <b> Roles of an Agricultural Scientist: </b> <br> <br>
+            <ul>
+              <li>  Analyze the issues, demands of farmers and public, things lacking behind and strategize methods to tackle such problems.</li> <br>
+
+              <li> Developing effective scientific strategies for cheap and easy farming techniques and animal husbandry, and educating the farmers. </li> <br>
+
+               <li> Developing crops for higher yield, pest and harsh environment resistant and for safe consumption. </li> <br>
+
+               <li> Strategies for smart farming using technology, organic farming and preservation techniques. </li> <br>
+
+               <li> Assessing agricultural activities and production and design strategies, suggestions to improve the growth in terms of productivity and economy and enhancing international trade. </li>
+            </ul>
+              <br>  
+        &ensp;&ensp;    If you want to know more about agriculture secience or scientist's <a href="https://en.wikipedia.org/wiki/Agricultural_science" style="text-decoration:none; color:blue"> click here.</a>
+            
+
+
+        </div>
+        <br> <br>
+    <div class="j">
+        <br> <pre style="text-align: center;">
+           Contact Us
+
+           Mail: chidurareddy63@gmail.com
+        </pre> 
+        
+        
+   </div>
+
+
+</body>
+</html>
