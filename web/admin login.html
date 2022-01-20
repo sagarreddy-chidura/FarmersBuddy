@@ -8,19 +8,6 @@
     <link rel="stylesheet" href="Style1.css">
 </head>
 <body>
-
-    <%
-            if (request.getParameter("msg") != null) {%>
-        <script>alert('File Details Sent Successfully');</script>
-        <%}
-            if (request.getParameter("msg1") != null) {%>
-        <script>alert('username/password wrong');</script> 
-        
-        <%}
-        %> 
-        <div class="k" >
-            <img src="images/header-photo.jpg" alt="" height="200px" width="1800px" >
-        </div>
     
     <Div class="m">
         <h1 >
@@ -46,6 +33,9 @@
     </div>
     <div class="q">
         <h2 class="s">Admin Login</h2><br>
+	<pre> 
+
+	</pre>
     
         <form action="adminact.jsp">
         <span class="d"> User Name  : </span> &ensp;&nbsp;&ensp;<input class="i" type="text" name="username" required="" placeholder="Enter your email" size="30" maxlength="30"> <br><br>
